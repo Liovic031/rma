@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "CashFlow",
+    "scheme": "CashFlow",
+    "slug": "CashFlow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "SUPABASE_URL": "https://sgdneorziwqwbkrtrics.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNnZG5lb3J6aXdxd2JrcnRyaWNzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYyNDM2OTMsImV4cCI6MjA0MTgxOTY5M30.uNcfBieB2XkNcNF64joH2dN1MEYbwlW5RrP6nRsUuAA"
+    }
+  }
+}
